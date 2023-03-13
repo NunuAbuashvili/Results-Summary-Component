@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Results Summary Component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main id="main-container">
+      <!-- Left blue side -->
+      <div class="blue left">
+        <h3>Your Result</h3>
+        <div class="score">
+          <p class="score-number">76<span>of 100</span></p>
+        </div>
+        <div class="result-comment">
+          <h2>Great</h2>
+          <p class="performance">
+            Your performance exceed 65% of the people conducting the test here!
+          </p>
+        </div>
+      </div>
+
+      <!-- Right white side -->
+      <div class="white right">
+        <h2 class="summary">Summary</h2>
+
+        <!-- Reaction -->
+        <div class="block block-reaction">
+          <img class="icon" src="./assets/images/icon-reaction.svg" />
+          <h3 class="block-title title-reaction">Reaction</h3>
+          <p class="result">80 <span>/ 100</span></p>
+        </div>
+
+        <!-- Memory -->
+        <div class="block block-memory">
+          <img class="icon" src="./assets/images/icon-memory.svg" />
+          <h3 class="block-title title-memory">Memory</h3>
+          <p class="result">92 <span>/ 100</span></p>
+        </div>
+
+        <!-- Verbal -->
+        <div class="block block-verbal">
+          <img class="icon" src="./assets/images/icon-verbal.svg" />
+          <h3 class="block-title title-verbal">Verbal</h3>
+          <p class="result">61 <span>/ 100</span></p>
+        </div>
+
+        <!-- Visual -->
+        <div class="block block-visual">
+          <img class="icon" src="./assets/images/icon-visual.svg" />
+          <h3 class="block-title title-visual">Visual</h3>
+          <p class="result">73 <span>/ 100</span></p>
+        </div>
+
+        <!-- Button -->
+        <button class="btn">Continue</button>
+      </div>
+    </main>
+  </body>
+</html>
